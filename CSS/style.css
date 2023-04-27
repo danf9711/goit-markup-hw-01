@@ -1,0 +1,48 @@
+*{list-style: none;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+header {box-sizing: content-box;
+  width: 100%;
+  display: flex;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+}
+.logo{
+  padding: 24px 1240px 25px 215px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #2196F3;}
+
+.menu{padding: 32px 866px 32px 453px; 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  display: inline-flex;
+  }
+.menu .link{ display: inline-flex;
+padding-top: 32px;
+padding-bottom: 32px;
+}
+.menu :hover{font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #2196F3}
+
